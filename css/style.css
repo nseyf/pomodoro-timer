@@ -1,0 +1,33 @@
+h1 {
+font-family: 'Rock Salt', cursive;
+  font-size: 4.5em;
+  color: red;
+  text-align: center;
+  padding-bottom: 55px;
+}
+span {
+  border-radius: 5px;
+  background: none;
+
+ align: center;
+}
+h2 {
+  text-align: center;
+  font-size: 4em;
+}
+#timerControls {
+  padding-top: 40px;
+  text-align: center;
+}
+
+#controls {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+#pomodoro {
+  text-align: center;
+}
+#minutes, #colon, #seconds {
+  font-size: 50px;
+}
