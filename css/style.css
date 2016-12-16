@@ -5,12 +5,7 @@ font-family: 'Rock Salt', cursive;
   text-align: center;
   padding-bottom: 55px;
 }
-span {
-  border-radius: 5px;
-  background: none;
 
- align: center;
-}
 h2 {
   text-align: center;
   font-size: 4em;
@@ -20,14 +15,9 @@ h2 {
   text-align: center;
 }
 
-#controls {
-  padding-top: 40px;
-  padding-bottom: 20px;
+#app {
   text-align: center;
-}
-#pomodoro {
-  text-align: center;
-}
-#minutes, #colon, #seconds {
-  font-size: 50px;
+  background: #e34234;
+  padding-bottom: 10px;
+  padding-top: 10px;
 }

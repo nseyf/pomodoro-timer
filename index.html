@@ -7,28 +7,25 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <script type="text/javascript" src="js/jquery.timer.js"></script>
-<script type="text/javascript" src="app.js"></script>
+<script type="text/javascript" src="js/app.js"></script>
 </head>
   <link href="https://fonts.googleapis.com/css?family=Pacifico|Poppins" rel="stylesheet">
 <body>
-  <div class="row">
-  <div class="col-xs-12 col-lg-2 col-lg-offset-5">
+  <div id="app">
   <h1>Pomodoro Clock</h1>
-    <div id="pomodoro">
-      <span id="minutes">25</span>
-      <span id="colon">:</span>
-      <span id="seconds">00</span
-    </div>
-    <div id="timerControls">
-<button type="button" id="increment"><span class="glyphicon glyphicon-plus"></button><button class="button" id="decrement"><span class="glyphicon glyphicon-minus" id="decrement"></button></div>
-  <div id="controls">
-  <button type="button" id="start">Start</button>
-  <button type="button" id="pause">Pause</button>
-  <button type="button" id="reset">Reset</button>
+  <div id="clock">
+    <h1 id="sessionLength">Session Length</h1>
+    <a href="#" class="btn btn-primary" id="addTime">+</a>
+    <h2 id="time">25</h2>
+    <a href="#" class="btn btn-primary" id="subTime">-</a>
+    <a href="#" class="btn btn-primary" id="resetTime">Reset</a>
   </div>
-  <p>
-    Built with <a href="http://jchavannes.com/jquery-timer/demo" target="_blank">jQuery timer</a>.
-  </p>
+  <div id ="break">
+        <h1 id="sessionLength">Break Time</h1>
+    <a href="#" class="btn btn-primary" id="addBreakTime">+</a>
+    <h2 id="breakTime">5</h2>
+    <a href="#" class="btn btn-primary" id="subBreakTime">-</a>
   </div>
-  </div>
+  <a href="#" class="btn btn-primary" id ="startClock">start</a>
+</div>
 </body>
