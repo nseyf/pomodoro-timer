@@ -7,7 +7,7 @@ $(document).ready(function(){
 $('#startClock').on('click', function(){
   var counter = setInterval(timer, 1000);
  time *= 60;
- breakTime *= 60;
+
   function timer(){
 
 $("#breakTime, #startClock, #subTime, #addTime, #subBreakTime, #addBreakTime, #sessionHeading").hide();
@@ -18,6 +18,7 @@ $("#breakTime, #startClock, #subTime, #addTime, #subBreakTime, #addBreakTime, #s
       clearInterval(counter);
       $('#time').hide();
       $('#breakTime').show();
+      breakTime *= 60;
       var startBreak = setInterval(breakTimer, 1000)
     }
 if (time % 60>=10){
